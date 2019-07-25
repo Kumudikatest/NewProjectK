@@ -1,0 +1,78 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "d89ccab8-7784-436a-a52b-e28c0d8033a1": {
+        "id": "d89ccab8-7784-436a-a52b-e28c0d8033a1",
+        "parent": null,
+        "name": "NewProjectK",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "da7d8328-45f1-4c47-a78f-be646e965577"
+        ],
+        "isRemovable": false,
+        "filePath": "NewProjectK"
+      },
+      "da7d8328-45f1-4c47-a78f-be646e965577": {
+        "id": "da7d8328-45f1-4c47-a78f-be646e965577",
+        "parent": "d89ccab8-7784-436a-a52b-e28c0d8033a1",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "NewProjectK/lambda.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "config": {
+          "runtime": "nodejs8.10",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
+      }
+    },
+    "deletedFiles": [],
+    "rootNode": "d89ccab8-7784-436a-a52b-e28c0d8033a1",
+    "openFiles": [
+      "da7d8328-45f1-4c47-a78f-be646e965577"
+    ],
+    "currentFileId": "da7d8328-45f1-4c47-a78f-be646e965577",
+    "resources": {},
+    "customTemplate": {
+      "dialect": null,
+      "definitions": {}
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "NewProjectK",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1564051150447
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "NewProjectK",
+      "url": "https://github.com/Kumudikatest/NewProjectK",
+      "branches": []
+    }
+  }
+}
